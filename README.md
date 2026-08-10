@@ -6,7 +6,7 @@
 
 ## Description
 
-It supports 16 acquisition strategies including pure uncertainty-based methods,
+It supports 16 acquisition strategies, including pure uncertainty-based methods,
 fixed-ratio exploitation-uncertainty mixing (Hybridcombo series), and
 time-triggered strategy switching (policy series).
 
@@ -37,7 +37,11 @@ Please download the compressed archive from the link below and extract it to the
 
 **Download:** [Data](https://zenodo.org/records/21874943) 
 
-If you prefer to regenerate these files yourself, you can run `python preprocess_data.py` (this process is time‑consuming).
+To preprocess new data:
+
+```bash
+python preprocess_data.py
+```
 
 ## Usage
 
