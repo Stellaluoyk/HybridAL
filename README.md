@@ -35,7 +35,7 @@ Due to file size limitations, the preprocessed data (e.g., `graphs`, `x`, `smile
 
 Please download the compressed archive from the link below and extract it to the project root directory (make sure the `data/` folder is placed at the same level as `main.py`):
 
-**Download:** `https://zenodo.org/records/21874943` 
+**Download:** [Data](https://zenodo.org/records/21874943) 
 
 If you prefer to regenerate these files yourself, you can run `python preprocess_data.py` (this process is time‑consuming).
 
