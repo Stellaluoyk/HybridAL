@@ -31,10 +31,13 @@ This repository includes preprocessed data for 6 datasets:
 
 Original data from [Wang et al.](https://github.com/wangwrx/An-uncertainty-guided-deep-learning-method-facilitates-rapid-screening-of-CYP3A4-inhibitors) and [LIT-PCBA](https://drugdesign.unistra.fr/LIT-PCBA/).
 
-To preprocess new data:
-```bash
-python preprocess_data.py
-```
+Due to file size limitations, the preprocessed data (e.g., `graphs`, `x`, `smiles`, etc.) are not included in this repository and have been uploaded to Zenodo.
+
+Please download the compressed archive from the link below and extract it to the project root directory (make sure the `data/` folder is placed at the same level as `main.py`):
+
+**Download:** `https://zenodo.org/records/21874943` 
+
+If you prefer to regenerate these files yourself, you can run `python preprocess_data.py` (this process is time‑consuming).
 
 ## Usage
 
